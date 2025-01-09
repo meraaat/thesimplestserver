@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRla2Vkb3cyMjJAZ21haWwuY29tIiwiZXhwIjoxNzM2NDY4MDU2LCJ1c2VySUQiOjR9.JG3No71xXYtQM71V50e1VCbyhheiKMSt1JliH_6-Kzo
+
+{
+    "name" : "dummy event",
+    "description" : "the first dummy event",
+    "location" : "boston",
+    "dateTime" : "2025-01-06T22:25:00.000Z"   
+}
